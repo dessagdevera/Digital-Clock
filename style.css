@@ -114,6 +114,10 @@ h1 {
   text-align: center;
 }
 
+.text {
+  font-size: clamp(10px, 16px, 16px);
+}
+
 footer {
   position: absolute;
   bottom: 10px;
