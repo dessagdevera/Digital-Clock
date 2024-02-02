@@ -23,7 +23,6 @@ body {
 .middle-night {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)),
     url("../assets/middle.jpg");
-  background-position: center;
 }
 
 .early {
