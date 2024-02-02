@@ -22,52 +22,52 @@ body {
 
 .middle-night {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)),
-    url(/assets/middle.jpg);
+    url(../assets/middle.jpg);
   background-position: center;
 }
 
 .early {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)),
-    url(/assets/early.jpg);
+    url(../assets/early.jpg);
 }
 
 .dawn {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)),
-    url(/assets/dawn.jpg);
+    url(../assets/dawn.jpg);
 }
 
 .morning {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)),
-    url(/assets/morning.jpg);
+    url(../assets/morning.jpg);
 }
 
 .mid-day {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)),
-    url(/assets/midday.jpg);
+    url(../assets/midday.jpg);
 }
 .afternoon {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)),
-    url(/assets/afternoon.jpg);
+    url(../assets/afternoon.jpg);
 }
 
 .late-afternoon {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)),
-    url(/assets/late-afternoon.jpg);
+    url(../assets/late-afternoon.jpg);
 }
 
 .dusk {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)),
-    url(/assets/dusk.jpg);
+    url(../assets/dusk.jpg);
 }
 
 .night {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)),
-    url(/assets/night.jpg);
+    url(../assets/night.jpg);
 }
 
 .late-night {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)),
-    url(/assets/late\ night.jpg);
+    url(../assets/late-night.jpg);
 }
 
 .contents {
