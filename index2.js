@@ -25,12 +25,10 @@ function updateClock() {
       document.body.classList.add("morning");
     } else if (h > 9 && h < 12) {
       document.body.classList.add("mid-day");
-    } else if (h > 8 && h < 12) {
-      document.body.classList.add("afternoon");
     }
   } else {
-    if (h === 12) {
-      document.body.classList.add("late-afternoon");
+    if (h === 12 && h < 2) {
+      document.body.classList.add("afternoon");
     } else if (h >= 2 && h < 4) {
       document.body.classList.add("late-afternoon");
     } else if (h > 4 && h < 7) {
@@ -39,6 +37,8 @@ function updateClock() {
       document.body.classList.add("night");
     } else if (h >= 9 && h < 11) {
       document.body.classList.add("late-night");
+    } else if (h === 11 && h < 12) {
+      document.body.classList.add("middle-night");
     }
   }
   h = h < 10 ? "0" + h : h;
