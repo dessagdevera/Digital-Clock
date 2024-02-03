@@ -1,4 +1,4 @@
-## I designed a digital calendar to dynamically change its background appearance throughout the day, adapting to the different times and stages of the day.
+## I designed a digital clock to dynamically change its background appearance throughout the day, adapting to the different times and stages of the day.
 ### Practice 'flex' to make it adaptive without media query
 [Live Demo](https://dessagdevera.github.io/Digital-Clock/)
 
