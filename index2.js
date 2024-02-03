@@ -13,18 +13,18 @@ function updateClock() {
   h = h % 12 || 12;
 
   // !try this to automatically reload
-  //   document.body.classList.remove(
-  //     "middle-night",
-  //     "early",
-  //     "dawn",
-  //     "morning",
-  //     "mid-day",
-  //     "afternoon",
-  //     "late-afternoon",
-  //     "dusk",
-  //     "night",
-  //     "late-night"
-  //   );
+  document.body.classList.remove(
+    "middle-night",
+    "early",
+    "dawn",
+    "morning",
+    "mid-day",
+    "afternoon",
+    "late-afternoon",
+    "dusk",
+    "night",
+    "late-night"
+  );
 
   if (am === "AM") {
     if (h === 12) {
