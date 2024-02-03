@@ -41,8 +41,10 @@ function updateClock() {
       document.body.classList.add("mid-day");
     }
   } else {
-    if (h === 12 && h < 2) {
+    if (h === 12) {
       document.body.classList.add("afternoon");
+    } else if (h === 1) {
+      document.body.classList.add("late-afternoon");
     } else if (h >= 2 && h < 4) {
       document.body.classList.add("late-afternoon");
     } else if (h > 4 && h < 7) {
