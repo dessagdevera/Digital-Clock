@@ -47,7 +47,7 @@ function updateClock() {
       document.body.classList.add("late-afternoon");
     } else if (h >= 2 && h < 4) {
       document.body.classList.add("late-afternoon");
-    } else if (h > 4 && h < 7) {
+    } else if (h >= 4 && h < 7) {
       document.body.classList.add("dusk");
     } else if (h >= 7 && h < 9) {
       document.body.classList.add("night");
